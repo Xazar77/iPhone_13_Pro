@@ -1,0 +1,39 @@
+/*header*/
+.header {
+
+
+    &__wrap {
+        max-width: 1130px;
+    }
+
+    &-menu {
+        display: flex;
+        align-items: center;
+        &__logo {
+            max-width: 34px;
+            margin-right: auto;
+        }
+        &__list {
+            display: flex;
+            align-items: center;
+        }
+        &__item {
+            margin-right: 30px;
+            white-space: nowrap;
+            a {
+                padding-top: 10px;
+                padding-bottom: 10px;
+                display: block;
+            }
+        }
+        &__burger {
+            margin-left: auto;
+        }
+    }
+}
+
+@media (max-width: 375px) {
+    .logo {
+        margin-right: 10px;
+    }
+}

@@ -1,4 +1,8 @@
 @import './block/_fonts.scss';
+@import './libs/normalize';
+@import './libs/amenu';
+
+
 
 html {
     box-sizing: border-box;
@@ -98,6 +102,12 @@ h1, h2, h3, p, ul {
 }
 
 
+@import './block/card';
+@import './block/characteristics';
+@import './block/cross';
+@import './block/header';
+@import './block/modal';
+@import './block/present';
 
 
 
